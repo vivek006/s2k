@@ -1,0 +1,2 @@
+[17-May-2016 10:34:38 UTC] PHP Parse error:  syntax error, unexpected '.1234567890' (T_DNUMBER) in /home/vivek12/public_html/application/controllers/Educationseminer.php on line 18
+[17-May-2016 10:35:13 UTC] PHP Fatal error:  Call to a member function common() on a non-object in /home/vivek12/public_html/application/controllers/Educationseminer.php on line 19

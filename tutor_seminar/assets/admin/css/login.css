@@ -1,0 +1,28 @@
+/*Login Header*/
+    .login-header{position:relative; background: #B62532; color: #fff; padding: 8em 0; display: block; width: 100%;}
+    .login-header:after{position: absolute; bottom: -36px; margin-left: 49%; left: 0; content: '\f0d7'; font-size: 43px; color: #B62532; font-family: FontAwesome;}
+    .login-header h1{text-align: center;}
+    .login-header p{color:#DA8B92; text-align: center; }
+
+    /*Login Form*/
+    .login-form{width: 100%; padding: 5em 0; background-color:#D0D5D1; }
+    .login-form h4{    padding: 0 1em;
+    color: rgb(123, 122, 123);
+    margin-bottom: 1em;}
+    .login-form .input-group{margin-bottom: 1em; width: 100%; border: 1px solid #C1C1C1;}
+    .login-form .input-group-btn{width: 20px!important;}
+    .login-form .form-control{background-color:#C8CCC9; box-shadow: none; height: 40px; padding: 5px 2px;}
+    .login-form .form-control:focus{outline: none; border-color: transparent;}
+    .login-form .input-group .i-btn{background-color:#C8CCC9;  color: #909090; height: 40px;}
+    .login-form .input-group .i-btn:hover{border-color: transparent;}
+    .login-form .input-group .i-btn:focus{outline: none;border-color: transparent; box-shadow: none;}
+    .login-form .checkbox label{margin-bottom: .8em; color: #909090}
+    /*Login Button*/
+    .v-btn{transition: all 0.3s ease-out; padding:.8em 1.5em; display: inline-block;}
+    .v-btn i{margin-top: 4px;}
+    .btn-primary{background-color: #B62532; color: #fff; border: 1px solid #D0D5D1;  text-align: left;   border: 1px solid #BABBBA; border-radius:3px; }
+	.btn-primary:focus{outline: none; box-shadow: none;}
+	.btn-primary:hover{transition: all 0.3s ease-out; background-color:#B62532;  border: 1px solid #B62532;}    
+
+	.forget-pwd{width: 100%; text-align: right; padding-top: 2px;}
+	.forget-pwd a{color:#909090; font-size: 12px; display: inline-block; color: #666}

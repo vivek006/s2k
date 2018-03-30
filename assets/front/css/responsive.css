@@ -1,0 +1,33 @@
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+nav img{width: 165px;}
+nav .button-collapse{color: #B62532;}
+	
+.home-banner img{display: none;}
+.home-banner h2{font-size: 25px;}
+.home-banner p{font-size: 12px;}
+
+.home-banner .head-line{margin-top: 75%;}
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+nav .button-collapse{color: #B62532;}	
+
+.home-banner{height: 300px;}	
+.home-banner img{width: 135px; bottom: -4em;}
+.head-line h2{font-size: 36px;}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+nav .button-collapse{color: #B62532;}	
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+
+}
