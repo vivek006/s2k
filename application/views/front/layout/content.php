@@ -1,4 +1,4 @@
- WHO-WE-ARE -->
+<!-- WHO-WE-ARE -->
 <section id="who-we-are" class="who-we-are bg-grey">
 	<div class="container">
 		<div class="row">
