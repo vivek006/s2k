@@ -32,10 +32,10 @@ class Home extends MY_Admin_Controller {
 		$this->load->library('email');
 		//$this->email->set_newline("\r\n");
 		$this->email->set_mailtype("html");
-		$this->email->from('vivek.ranjan@delivernature.com', 'Vivek Ranjan');
+		$this->email->from('vivek.ranjan@s2know.com', 'Vivek Ranjan');
 		$this->email->to('vivekranjan006@gmail.com');  
 		//$this->email->bcc('anil.yadav@actiknow.com'); 
-		$this->email->subject('my deliver nature jobs:');
+		$this->email->subject('s2know lead mail :');
 		$datamail["username"] = $f_name.'-'.$l_name;
 		$datamail["email"]=$email;
 		$datamail["msg"] ='message for you : '.$message;
