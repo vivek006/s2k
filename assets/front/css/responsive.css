@@ -6,6 +6,10 @@ nav .button-collapse{color: #B62532;}
 	
 .home-banner img{display: none;}
 .home-banner h2{font-size: 25px;}
+
+.home-banner h3{font-size: 1.40rem !important;}
+.home-banner h5{font-size:1rem !important;}
+
 .home-banner p{font-size: 12px;}
 
 .home-banner .head-line{margin-top: 15px;}

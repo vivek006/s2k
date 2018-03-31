@@ -5,11 +5,11 @@
 		  <div class="col s12">
 			<div class="title">
 			  <h4>WHO WE ARE</h4>
-			  <p>S2Know is a company that has introduced a new concept in the technical training to help fresher’s understand the different opportunities they can get after completing their engineering. While in the college students often dream about getting placements but end up in confusion as they are unaware of the domain they should choose. Here comes the S2Know which will guide the aspirants during the college time only so that while completing their degree they are well versed with the insights of the IT market.</p>
+			  <p class="tex-justify">S2Know is a company that has introduced a new concept in the technical training to help fresher’s understand the different opportunities they can get after completing their engineering. While in the college students often dream about getting placements but end up in confusion as they are unaware of the domain they should choose. Here comes the S2Know which will guide the aspirants during the college time only so that while completing their degree they are well versed with the insights of the IT market.</p>
 			  <br>
-			  <p>S2Know provides a unique concept of training by the professionals who gives the training in the college premises only so by this the students are aware of the domain they are going to choose for shaping their career because “the early you rise the early you grow”.</p>
+			  <p class="tex-justify">S2Know provides a unique concept of training by the professionals who gives the training in the college premises only so by this the students are aware of the domain they are going to choose for shaping their career because “the early you rise the early you grow”.</p>
 			  <br>
-			  <p>S2Know team is comprised of young and dynamic youngsters who wants to help the students in choosing a right path for their career. As they themselves are engineers so they know well the hurdles of a students while getting a job. The main reason for not getting a job is the lack of knowledge. Students blindly follow each other with zero knowledge which ends up in nothing so to help these type of students S2Know introduced its unique training program that is not costly as other programs.</p>
+			  <p class="tex-justify">S2Know team is comprised of young and dynamic youngsters who wants to help the students in choosing a right path for their career. As they themselves are engineers so they know well the hurdles of a students while getting a job. The main reason for not getting a job is the lack of knowledge. Students blindly follow each other with zero knowledge which ends up in nothing so to help these type of students S2Know introduced its unique training program that is not costly as other programs.</p>
 			</div>
 			
 		  </div>
@@ -23,7 +23,7 @@
 		<div class="row">
 			<div class="col s12">
 				<div class="title">
-					<h4>What Services we offered</h4>
+					<h4>Our Services </h4>
 					<!-- <p>Dream to make the education easy and convient for young generation of our country</p> -->
 				</div>
 			</div>
@@ -31,7 +31,7 @@
 				<div class="box center">
 					<h2 class="light-blue-text"><i class="small material-icons">receipt</i></h2>
 					<h5>Campus Training</h5>
-					<p>As the competition is rising day by day the fear among students while studying is also high as they don’t have any guidance. The base of the engineering students is their campus only so S2Know will provide them training in the campus only which will be convenient for them plus will be providing them practical and theoretical knowledge both.</p>
+					<p class="tex-justify">As the competition is rising day by day the fear among students while studying is also high as they don’t have any guidance. The base of the engineering students is their campus only so S2Know will provide them training in the campus only which will be convenient for them plus will be providing them practical and theoretical knowledge both.</p>
 				</div>
 			</div>
 
@@ -39,7 +39,7 @@
 				<div class="box center">
 					<h2 class="light-blue-text"><i class="small material-icons">receipt</i></h2>
 					<h5>Industrial Training</h5>
-					<p>From the school itself students are forced to grasp the theory part only and in colleges also same thing goes on but the reality is that to succeed in technical field one should have good practical knowledge that’s why we in S2Know pay attention to practical knowledge more rather than theoretical.</p>
+					<p class="tex-justify">From the school itself students are forced to grasp the theory part only and in colleges also same thing goes on but the reality is that to succeed in technical field one should have good practical knowledge that’s why we in S2Know pay attention to practical knowledge more rather than theoretical.</p>
 				</div>
 			</div>
 			
@@ -56,7 +56,7 @@
 				<div class="box center">
 					<h2 class="light-blue-text"><i class="small material-icons">receipt</i></h2>
 					<h5>Beginners Programming</h5>
-					<p>From the school itself students are forced to grasp the theory part only and in colleges also same thing goes on but the reality is that to succeed in technical field one should have good practical knowledge that’s why we in S2Know pay attention to practical knowledge more rather than theoretical.</p>
+					<p class="tex-justify">From the school itself students are forced to grasp the theory part only and in colleges also same thing goes on but the reality is that to succeed in technical field one should have good practical knowledge that’s why we in S2Know pay attention to practical knowledge more rather than theoretical.</p>
 				</div>
 			</div>
 
@@ -93,15 +93,15 @@
 		<div class="row">
 			<div class="col s12">
 				<div class="title">
-					<h4>What Courses we offered</h4>
-					<p>Dream to make the education easy and convient for young generation of our country</p>
+					<h4>Our Courses</h4>
+					<p class="tex-justify">Dream to make the education easy and convient for young generation of our country</p>
 				</div>
 			</div>
 			<div class="col s12 m4 l4">
 				<div class="box center">
 					<h2 class="light-blue-text"><i class="small material-icons">receipt</i></h2>
 					<h5>Software Development</h5>
-					<p>We bring the one tutorial from insturies best professional.</p>
+					<p class="tex-justify">We bring the one tutorial from insturies best professional.</p>
 				</div>
 			</div>
 
@@ -109,35 +109,35 @@
 				<div class="box center">
 					<h2 class="light-blue-text"><i class="small material-icons">receipt</i></h2>
 					<h5>Python For analysis</h5>
-					<p>Do u like some tutorial,then you can personally contact the instructor and ask for online classes.</p>
+					<p class="tex-justify">Do u like some tutorial,then you can personally contact the instructor and ask for online classes.</p>
 				</div>
 			</div>
 			<div class="col s12 m4 l4">
 				<div class="box center">
 					<h2 class="light-blue-text"><i class="small material-icons">receipt</i></h2>
 					<h5>Web Development</h5>
-					<p>If you have a plane,Tell us we are turn it itno the reality.</p>
+					<p class="tex-justify">If you have a plane,Tell us we are turn it itno the reality.</p>
 				</div>
 			</div>
 			<div class="col s12 m4 l4">
 				<div class="box center">
 					<h2 class="light-blue-text"><i class="small material-icons">receipt</i></h2>
 					<h5>UI Development</h5>
-					<p>Share your work,with out team member,ask question and and gain skills.</p>
+					<p class="tex-justify">Share your work,with out team member,ask question and and gain skills.</p>
 				</div>
 			</div>
 			<div class="col s12 m4 l4">
 				<div class="box center">
 					<h2 class="light-blue-text"><i class="small material-icons">receipt</i></h2>
 					<h5>Digital Marketing</h5>
-					<p>If you want to get our team visit to your college,institute and school. <br/> We going to deliver seminar for you</p>
+					<p class="tex-justify">If you want to get our team visit to your college,institute and school. <br/> We going to deliver seminar for you</p>
 				</div>
 			</div>
 			<div class="col s12 m4 l4">
 				<div class="box center">
 					<h2 class="light-blue-text"><i class="small material-icons">receipt</i></h2>
 					<h5>Data Science</h5>
-					<p>We are dealing with leading company to place our student.</p>
+					<p class="tex-justify">We are dealing with leading company to place our student.</p>
 				</div>
 			</div>
      

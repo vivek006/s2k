@@ -77,14 +77,14 @@ nav ul a.active{background-color: #B62532; color: #fff;}
 
 /*TITLE*/
 .title{width: 100%; text-align: center; margin-bottom: 3em;}
-.title p {text-align: justify !important; }
+.text-justify {text-align: justify !important; }
 .title h4{text-transform: uppercase;}
 /*.title p{color: #aaa;}*/
 .box p {text-align: justify !important;}
 /*HOME-BANNER*/
 .home-banner{position: relative; height: 100%; width: 100%; background-image: url('../img/bg-img-1.jpg'); background-size: cover; background-attachment: fixed; background-position: center;}
 .home-banner img{position: absolute; width: 200px; bottom: 0em; right: 10%;}
-.head-line{margin-top: 20%;}
+.head-line{margin-top: 12%;}
 
 /*GET-APPS*/
 .get-app,
