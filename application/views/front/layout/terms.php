@@ -1,7 +1,7 @@
 <!DOCTYPE>
 <html>
 <head>
-<title>S2K Terms & Policy</title>
+<title>S2Know Terms & Policy</title>
 <?php require_once 'common/head-script.php';?>
 </head>
 <body>

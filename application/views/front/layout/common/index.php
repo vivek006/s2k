@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-	<title>S2k</title>
+	<title>s2know</title>
 <link rel='icon' type='image/png' href='<?php echo base_url()."assets/front/"; ?>img/myownlogo.png' />
 	<?php if($head_script) {echo $head_script;} ?>
 </head>

@@ -1,7 +1,7 @@
 <!DOCTYPE>
 <html>
 <head>
-<title>S2K FAQ</title>
+<title>S2Know FAQ</title>
 <?php require_once 'common/head-script.php';?>
 </head>
 <body>

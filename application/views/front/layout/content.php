@@ -13,7 +13,59 @@
 	</div>
 </section>
 <!-- SERVICES -->
+
 <section id="services" class="services">
+	<div class="container">
+		<div class="row">
+			<div class="col s12">
+				<div class="title">
+					<h4>What Services we offered</h4>
+					<p>Dream to make the education easy and convient for young generation of our country</p>
+				</div>
+			</div>
+			<div class="col s12 m4 l4">
+				<div class="box center">
+					<h2 class="light-blue-text"><i class="small material-icons">receipt</i></h2>
+					<a href="<?php echo base_url().'Onlinetutoring'?>"><h5>Campus Training</h5><a/>
+					<p>We bring the one tutorial from insturies best professional.</p>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="box center">
+					<h2 class="light-blue-text"><i class="small material-icons">receipt</i></h2>
+					<a href="<?php echo base_url().'Personaltutoring'?>"><h5>Corporate Training</h5></a>
+					<p>Do u like some tutorial,then you can personally contact the instructor and ask for online classes.</p>
+				</div>
+			</div>
+			<div class="col s12 m4 l4">
+				<div class="box center">
+					<h2 class="light-blue-text"><i class="small material-icons">receipt</i></h2>
+					<a href="<?php echo base_url().'Softwaredevelopment'?>"><h5>INDUSTRIAL TRAINING</h5></a>
+					<p>If you have a plane,Tell us we are turn it itno the reality.</p>
+				</div>
+			</div>
+			<div class="col s12 m4 l4">
+				<div class="box center">
+					<h2 class="light-blue-text"><i class="small material-icons">receipt</i></h2>
+					<a href="<?php echo base_url().'Knowledgesharing'?>"><h5>UI Development</h5></a>
+					<p>Share your work,with out team member,ask question and and gain skills.</p>
+				</div>
+			</div>
+			<div class="col s12 m4 l4">
+				<div class="box center">
+					<h2 class="light-blue-text"><i class="small material-icons">receipt</i></h2>
+					<a href="<?php echo base_url().'Educationseminar'?>"><h5>Classroom Training</h5></a>
+					<p>If you want to get our team visit to your college,institute and school. <br/> We going to deliver seminar for you</p>
+				</div>
+			</div>
+		</div>
+    </div>
+  </div>
+</section>
+
+
+<section id="courses" class="courses bg-grey">
 	<div class="container">
 		<div class="row">
 			<div class="col s12">
@@ -71,6 +123,10 @@
   </div>
 </section>
 <!-- CONTACT -->
+
+<!-- SERVICES -->
+<!-- CONTACT -->
+
 <section id="contact" class="contact">
   <div class="container">
     <div class="row">
