@@ -1,13 +1,17 @@
-<!-- WHO-WE-ARE -->
+
 <section id="who-we-are" class="who-we-are bg-grey">
 	<div class="container">
 		<div class="row">
 		  <div class="col s12">
 			<div class="title">
 			  <h4>WHO WE ARE</h4>
-			  <p>Group of engineering professionals from different fields .</p>
+			  <p>S2Know is a company that has introduced a new concept in the technical training to help fresher’s understand the different opportunities they can get after completing their engineering. While in the college students often dream about getting placements but end up in confusion as they are unaware of the domain they should choose. Here comes the S2Know which will guide the aspirants during the college time only so that while completing their degree they are well versed with the insights of the IT market.</p>
+			  <br>
+			  <p>S2Know provides a unique concept of training by the professionals who gives the training in the college premises only so by this the students are aware of the domain they are going to choose for shaping their career because “the early you rise the early you grow”.</p>
+			  <br>
+			  <p>S2Know team is comprised of young and dynamic youngsters who wants to help the students in choosing a right path for their career. As they themselves are engineers so they know well the hurdles of a students while getting a job. The main reason for not getting a job is the lack of knowledge. Students blindly follow each other with zero knowledge which ends up in nothing so to help these type of students S2Know introduced its unique training program that is not costly as other programs.</p>
 			</div>
-			<p>Deliver Nature is the place where you will find out young and talentend profeesional from different fields.</p>
+			
 		  </div>
 		</div>
 	</div>
@@ -27,24 +31,43 @@
 				<div class="box center">
 					<h2 class="light-blue-text"><i class="small material-icons">receipt</i></h2>
 					<h5>Campus Training</h5>
-					<p>We bring the one tutorial from insturies best professional.</p>
+					<p>As the competition is rising day by day the fear among students while studying is also high as they don’t have any guidance. The base of the engineering students is their campus only so S2Know will provide them training in the campus only which will be convenient for them plus will be providing them practical and theoretical knowledge both.</p>
 				</div>
 			</div>
 
 			<div class="col s12 m4 l4">
 				<div class="box center">
 					<h2 class="light-blue-text"><i class="small material-icons">receipt</i></h2>
+					<h5>Industrial Training</h5>
+					<p>From the school itself students are forced to grasp the theory part only and in colleges also same thing goes on but the reality is that to succeed in technical field one should have good practical knowledge that’s why we in S2Know pay attention to practical knowledge more rather than theoretical.</p>
+				</div>
+			</div>
+			
+
+			<!-- <div class="col s12 m4 l4">
+				<div class="box center">
+					<h2 class="light-blue-text"><i class="small material-icons">receipt</i></h2>
 					<h5>Corporate Training</h5>
 					<p>Do u like some tutorial,then you can personally contact the instructor and ask for online classes.</p>
 				</div>
-			</div>
+			</div> -->
+
 			<div class="col s12 m4 l4">
+				<div class="box center">
+					<h2 class="light-blue-text"><i class="small material-icons">receipt</i></h2>
+					<h5>Beginners Programming</h5>
+					<p>From the school itself students are forced to grasp the theory part only and in colleges also same thing goes on but the reality is that to succeed in technical field one should have good practical knowledge that’s why we in S2Know pay attention to practical knowledge more rather than theoretical.</p>
+				</div>
+			</div>
+
+<!-- 			<div class="col s12 m4 l4">
 				<div class="box center">
 					<h2 class="light-blue-text"><i class="small material-icons">receipt</i></h2>
 					<h5>Industrial Training</h5>
 					<p>If you have a plane,Tell us we are turn it itno the reality.</p>
 				</div>
-			</div>
+			</div> -->
+
 			<!-- <div class="col s12 m4 l4">
 				<div class="box center">
 					<h2 class="light-blue-text"><i class="small material-icons">receipt</i></h2>
