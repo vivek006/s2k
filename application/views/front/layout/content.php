@@ -18,7 +18,7 @@
 		<div class="row">
 			<div class="col s12">
 				<div class="title">
-					<h4>What services we offered</h4>
+					<h4>What Courses we offered</h4>
 					<p>Dream to make the education easy and convient for young generation of our country</p>
 				</div>
 			</div>

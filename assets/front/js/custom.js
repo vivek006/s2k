@@ -9,7 +9,14 @@ $(document).ready(function(){
     // $('#textarea1').val('New Text');
 	$('#textarea1').trigger('autoresize');
     });
+    var count_flag = 1;
 
+
+    $('#mobile-demo').on('click',function(e){
+           $("#wrapper").css("margin: 0; padding: 0;font-size: 14px;line-height: 20px;}");
+           $("#mobile-demo").css('left: -250px !important;');
+    });
+   
     $(".jumper").on("click", function( e ) {
         
         e.preventDefault();
