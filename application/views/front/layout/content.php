@@ -45,7 +45,7 @@
 					<p>If you have a plane,Tell us we are turn it itno the reality.</p>
 				</div>
 			</div>
-			<div class="col s12 m4 l4">
+			<!-- <div class="col s12 m4 l4">
 				<div class="box center">
 					<h2 class="light-blue-text"><i class="small material-icons">receipt</i></h2>
 					<h5>UI Development</h5>
@@ -58,7 +58,7 @@
 					<h5>Classroom Training</h5>
 					<p>If you want to get our team visit to your college,institute and school. <br/> We going to deliver seminar for you</p>
 				</div>
-			</div>
+			</div> -->
 		</div>
     </div>
   </div>
