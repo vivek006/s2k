@@ -8,7 +8,7 @@ class MY_Controller extends CI_Controller
     }
 }
 
-class MY_Admin_Controller extends MY_Controller
+class MY_Frontend_Controller extends MY_Controller
 {
 	var $template  = array();
 	var $data      = array();   

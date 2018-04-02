@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Home extends MY_Admin_Controller {
+class Home extends MY_Frontend_Controller {
 
 	public function index()
 	{	
@@ -22,7 +22,7 @@ class Home extends MY_Admin_Controller {
 	}
 
 	
-	function submit_form()
+	public function submit_form()
 	{
 		$f_name=$_REQUEST['first_name'];
 		$l_name=$_REQUEST['last_name'];
