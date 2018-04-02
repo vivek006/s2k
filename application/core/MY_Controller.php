@@ -36,18 +36,18 @@ class MY_Frontend_Controller extends MY_Controller
 	 $this->load->view('common/layout/index', $this->template);*/
    }
    	
- function getLatLong()
-   {
-	 if($this->admin_model->checkSessionExpiry())
-		{	  
-			$this->updateLastActivity();
-			$array_items = array('admin_userid' => '', 'admin_username' => '','validated'=>'');
-			$this->session->unset_userdata($array_items);
-			$data=array("logoutmsg"=>'<p>Your session is expired.</p>');
-			$this->session->set_userdata($data);	
-			$this->load->view("admin/layout/login");	
-		} 
-   }  
+ // function getLatLong()
+ //   {
+	//  if($this->admin_model->checkSessionExpiry())
+	// 	{	  
+	// 		$this->updateLastActivity();
+	// 		$array_items = array('admin_userid' => '', 'admin_username' => '','validated'=>'');
+	// 		$this->session->unset_userdata($array_items);
+	// 		$data=array("logoutmsg"=>'<p>Your session is expired.</p>');
+	// 		$this->session->set_userdata($data);	
+	// 		$this->load->view("admin/layout/login");	
+	// 	} 
+ //   }  
   
 public function layoutFront()
 	{

@@ -1,8 +1,13 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Index extends MY_Admin_Controller {
+class Index extends MY_Frontend_Controller {
 
+	public function index()
+	{	
+			$this->middle="front/layout/content";
+			$this->layoutFront();	
+	}
 	public function faq()
 	{
 			$this->middle="front/layout/faq/content";
