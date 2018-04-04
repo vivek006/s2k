@@ -27,11 +27,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 if(ENVIRONMENT == 'development'){
 	$config['base_url'] = '/';
 }else{
-	//$config['base_url'] = 'http://www.s2k.com';
-	$config['base_url'] = '/';
+	//$config['base_url'] = 
+	$config['base_url'] = 'http://www.s2know.com';;
 }
 
-$config['uri_protocol'] = "REQUEST_URI";
+
 /*
 |--------------------------------------------------------------------------
 | Index File
