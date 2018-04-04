@@ -99,45 +99,50 @@
 			</div>
 			<div class="col s12 m4 l4">
 				<div class="box center">
-					<h2 class="light-blue-text"><i class="small material-icons">receipt</i></h2>
+					<h2 class="light-blue-text"><i class="small material-icons">info_outline</i></h2>
 					<h5>Software Development</h5>
-					<p class="tex-justify">We bring the one tutorial from insturies best professional.</p>
+					<p class="tex-justify">Software developers are in charge of the entire development process for a software program. Software developers are the creative minds behind computer programs.</p>
 				</div>
 			</div>
 
 			<div class="col s12 m4 l4">
 				<div class="box center">
-					<h2 class="light-blue-text"><i class="small material-icons">receipt</i></h2>
+					<h2 class="light-blue-text"><i class="small material-icons">info_outline</i></h2>
 					<h5>Python For analysis</h5>
-					<p class="tex-justify">Do u like some tutorial,then you can personally contact the instructor and ask for online classes.</p>
+					<p class="tex-justify">Dealing with unstructured data , making them meaningful . Generating insight using this data.</p>
 				</div>
 			</div>
 			<div class="col s12 m4 l4">
 				<div class="box center">
-					<h2 class="light-blue-text"><i class="small material-icons">receipt</i></h2>
+					<h2 class="light-blue-text"><i class="small material-icons">info_outline</i></h2>
 					<h5>Web Development</h5>
-					<p class="tex-justify">If you have a plane,Tell us we are turn it itno the reality.</p>
+					<p class="tex-justify"> web development has been a growing industry. 
+						 The growth of this industry is being driven by businesses wishing 
+						 to use their website to sell products and services to customers.
+					</p>
 				</div>
 			</div>
 			<div class="col s12 m4 l4">
 				<div class="box center">
-					<h2 class="light-blue-text"><i class="small material-icons">receipt</i></h2>
+					<h2 class="light-blue-text"><i class="small material-icons">info_outline</i></h2>
 					<h5>UI Development</h5>
-					<p class="tex-justify">Share your work,with out team member,ask question and and gain skills.</p>
+					<p class="tex-justify">User interface (UI) developers combine programming, psychology and creative design to craft intuitive controls for software and hardware. The UI developer’s mission is to create an interface that behaves as users would it expect it to, facilitating a seamless and efficient user experience.
+
+					</p>
 				</div>
 			</div>
 			<div class="col s12 m4 l4">
 				<div class="box center">
-					<h2 class="light-blue-text"><i class="small material-icons">receipt</i></h2>
+					<h2 class="light-blue-text"><i class="small material-icons">info_outline</i></h2>
 					<h5>Digital Marketing</h5>
-					<p class="tex-justify">If you want to get our team visit to your college,institute and school. <br/> We going to deliver seminar for you</p>
+					<p class="tex-justify">Digital Marketing industry is booming not just in India but all parts of the world. Its operates over the digital platform i.e the internet for the introduction and promotion of various goods and services.</p>
 				</div>
 			</div>
 			<div class="col s12 m4 l4">
 				<div class="box center">
-					<h2 class="light-blue-text"><i class="small material-icons">receipt</i></h2>
+					<h2 class="light-blue-text"><i class="small material-icons">info_outline</i></h2>
 					<h5>Data Science</h5>
-					<p class="tex-justify">We are dealing with leading company to place our student.</p>
+					<p class="tex-justify">Data science has emerged as one of the most rewarding streams and will get stronger in coming times.</p>
 				</div>
 			</div>
      
