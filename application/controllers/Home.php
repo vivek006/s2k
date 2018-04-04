@@ -5,8 +5,7 @@ class Home extends MY_Frontend_Controller {
 
 	public function index()
 	{	
-		echo "=====================================";
-			$this->middle="front/layout/content";
+		$this->middle="front/layout/content";
 			$this->layoutFront();	
 	}
 
