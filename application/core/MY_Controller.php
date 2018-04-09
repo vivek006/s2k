@@ -49,8 +49,11 @@ class MY_Frontend_Controller extends MY_Controller
 	// 	} 
  //   }  
   
-public function layoutFront()
+public function layoutFront($response = array())
 	{
+		if(isset($response)){
+			$this->data = $response;
+		}
      // making temlate and send data to view.
      $this->template['head_script']   = $this->load->view('front/layout/common/head_script', $this->data, true);
      $this->template['nav_bar']   = $this->load->view('front/layout/common/nav_bar', $this->data, true);

@@ -1703,6 +1703,8 @@ class CI_Email {
 
 		$result = $this->_spool_email();
 
+		print_r($result);
+echo 'sdfdsfsdgsf'; exit;
 		if ($result && $auto_clear)
 		{
 			$this->clear();

@@ -171,8 +171,8 @@
 				  <i class="small material-icons">location_on</i>
 				</div>
 				<div class="detail">
-				  <h5>Address</h5>
-				  <p>B-105,SECTOR -7, DWARKA, </p>
+				  <h5>Address : </h5>
+				  <p>G 562 , Sector 8, Dwarka</p>
 				</div>
 			  </li>
 			  <li>
@@ -180,7 +180,7 @@
 				  <i class="small material-icons">phone</i>
 				</div>
 				<div class="detail">
-				  <h5>Free Helpline</h5>
+				  <h5>Contact : </h5>
 				  <p>+91 8287424487 </p>
 				  <p>+91 9821499783</p>
 				</div>
@@ -199,7 +199,7 @@
 		</div>
 		<div class="col s12 m6 m6 l8">
 			<div class="row">
-				<form class="col s12" action="<?php echo base_url();?>home/submit_form" method="post">
+				<form class="col s12" action="<?php echo base_url();?>home/add_visitor" method="post">
 					<div class="row">
 						<div class="input-field col s6">
 							<input id="first_name" type="text" class="validate" name="first_name">
@@ -211,10 +211,15 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="input-field col s12">
+						<div class="input-field col s6">
 							<input id="email" type="email" class="validate" name="email">
 							<label for="email">Email</label>
 							<label for="email" data-error="wrong" data-success="right">Email</label>
+						</div>
+						<div class="input-field col s6">
+							<input id="phone" type="number" class="validate" name="phone" maxlength="10">
+							<label for="phone">Phone</label>
+							<label for="phone" data-error="wrong" data-success="right">Phone</label>
 						</div>
 					</div>
 					<div class="row">
@@ -224,8 +229,16 @@
 						</div>
 					</div>
 					<div class="row submit-row">
-						<input class="waves-effect waves-light btn secondary-btn" type="submit" value="Submit" name="contact_us">
+						<input class="waves-effect waves-light btn secondary-btn" id="contact_us_buttom" type="submit" value="Submit" name="contact_us">
 					</div>
+					<?php if(isset($add_visitor)) { ?>
+					<div class="row">
+						<div class="alert alert-success col s12">
+  							<strong>Success! </strong><?php echo $add_visitor['message']; ?>
+						</div>
+					</div>
+					<?php } ?>
+
 				</form>
 			</div>
 		</div>
@@ -251,3 +264,73 @@
     </div>
 </section>
 -->
+
+<script>
+    //Cookies restore
+    function putgenderCookies(gender)
+    {
+        setCookie("kr_gender", gender);
+        ga("send","event","recommended","gender_popup",gender);
+        jQuery('.gender-modal').hide();
+        location.reload();
+    }
+
+    $(document).ready(function() {
+        var loginStatus = <?php
+            if ($this->session->userdata('is_logged_in') && $this->session->userdata('user_id'))
+                echo 1;
+            else
+                echo 0;
+            ?>;
+        var closed_credit = <?php
+            if ($this->session->userdata('users_credit_close') && $this->session->userdata('user_id'))
+                echo 1;
+            else
+                echo 0;
+            ?>;
+        //check if user is not logged in and yet not closed credit popup
+        if((loginStatus != 1) && (getCookie("users_credit_close") != 1)){
+            $('.close-credit').removeClass('hides');
+            $('.credit_value').text(' 100');
+
+        }else if((loginStatus == 1) && (closed_credit == 0)) {
+            $.ajax({
+                type: "GET",
+                url: '/users/get_users_credit',
+                crossDomain: true,
+                success: function (data, status, jQxhr) {
+                    var creditObj = JSON.parse(data);
+                    if ((creditObj.success == true) && (creditObj.message.reward_points.amount > 0)) {
+                        $('.close-credit').removeClass('hides');
+                        $('.credit_value').text('' + creditObj.message.reward_points.amount + '');
+                    }
+                },
+                error: function (jqXhr, status, error) {
+                    console.log(error);
+                }
+            });
+        }
+
+        $('#contact_us_buttom').click(function(e) {
+        	// body...
+        })
+
+    
+        if(getCookie('kr_gender') == null) {
+            var width =  $(window).width();
+            if (width < 768) {
+                if(!jQuery('#gender_check').val()){
+                    //$('.gender-modal').show();
+                    $('.gender-modal').removeClass('hide');
+                }
+            }
+        }
+
+         //close Modal
+          jQuery('.cross-close').click(function(e){
+            e.preventDefault();
+            jQuery('.gender-modal').hide();
+          });
+    });
+
+</script>
