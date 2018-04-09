@@ -80,9 +80,9 @@ $query_builder = TRUE;
 if (ENVIRONMENT == 'production') {
 	$db['default'] = array(
 		'dsn'	=> '',
-		'hostname' => 'localhost',
+		'hostname' => '13.250.166.122',
 		'username' => 'root',
-		'password' => '',
+		'password' => 'mysql@123',
 		'database' => 'db_study_know',
 		'dbdriver' => 'mysqli',
 		'dbprefix' => '',
