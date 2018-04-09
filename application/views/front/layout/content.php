@@ -265,7 +265,7 @@
 </section>
 -->
 
-<script>
+<!-- <script>
     //Cookies restore
     function putgenderCookies(gender)
     {
@@ -276,18 +276,7 @@
     }
 
     $(document).ready(function() {
-        var loginStatus = <?php
-            if ($this->session->userdata('is_logged_in') && $this->session->userdata('user_id'))
-                echo 1;
-            else
-                echo 0;
-            ?>;
-        var closed_credit = <?php
-            if ($this->session->userdata('users_credit_close') && $this->session->userdata('user_id'))
-                echo 1;
-            else
-                echo 0;
-            ?>;
+        
         //check if user is not logged in and yet not closed credit popup
         if((loginStatus != 1) && (getCookie("users_credit_close") != 1)){
             $('.close-credit').removeClass('hides');
@@ -333,4 +322,4 @@
           });
     });
 
-</script>
+</script> -->
