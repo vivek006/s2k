@@ -76,11 +76,12 @@ $query_builder = TRUE;
 
 //mysql -u root -p mysql@123
 
+//rds DB instance identifier = s2knowdb , Master username = db_study_to_know and pass = (s2know)
 
 if (ENVIRONMENT == 'production') {
 	$db['default'] = array(
 		'dsn'	=> '',
-		'hostname' => '127.0.0.1',
+		'hostname' => 'localhost',
 		'username' => 'root',
 		'password' => 'mysql@123',
 		'database' => 'db_study_know',
