@@ -171,7 +171,7 @@
 				  <i class="small material-icons">location_on</i>
 				</div>
 				<div class="detail">
-				  <h5>Address : </h5>
+				  <h5>Address </h5>
 				  <p>G 562 , Sector 8, Dwarka</p>
 				</div>
 			  </li>
@@ -180,7 +180,7 @@
 				  <i class="small material-icons">phone</i>
 				</div>
 				<div class="detail">
-				  <h5>Contact : </h5>
+				  <h5>Contact </h5>
 				  <p>+91 8287424487 </p>
 				  <p>+91 9821499783</p>
 				</div>
