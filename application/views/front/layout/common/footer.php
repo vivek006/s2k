@@ -11,6 +11,7 @@
           <li><a class="white-text" href="/">Home</a></li>
           <li><a class="white-text" href="/home/faq/">Faq</a></li>
           <li><a class="white-text" href="/home/tnc/">Terms & Policy</a></li>
+          <li><a class="white-text" href="/blog/">Blog</a></li>
         </ul>
       </div>
       <div class="col l3 s12">

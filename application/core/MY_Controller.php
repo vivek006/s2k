@@ -49,7 +49,7 @@ class MY_Frontend_Controller extends MY_Controller
 	// 	} 
  //   }  
   
-public function layoutFront($response = array())
+	public function layoutFront($response = array())
 	{
 		if(isset($response)){
 			$this->data = $response;
@@ -63,6 +63,19 @@ public function layoutFront($response = array())
 	 $this->template['body_script'] = $this->load->view('front/layout/common/body_script', $this->data, true);
 	 $this->template['jsfile'] = $this->load->view('common/layout/jsfile', $this->data, true);
 	 $this->load->view('front/layout/common/index', $this->template);
-   }      
+   }  
+
+   public function layoutBlog($response = array())
+	{
+		if(isset($response)){
+			$this->data = $response;
+		}
+     // making temlate and send data to view.
+     $this->template['head_script']   = $this->load->view('blog/header', $this->data, true);
+     $this->template['nav_bar']   = $this->load->view('blog/nav_bar', $this->data, true);
+     $this->template['middle'] = $this->load->view($this->middle, $this->data, true);
+     $this->template['footer'] = $this->load->view('blog/footer', $this->data, true);
+	 $this->load->view('blog/index', $this->template);
+   }     
 }
 ?>
