@@ -17,7 +17,6 @@
           </p>
 
           <hr>
-
           <!-- Date/Time -->
           <p>Posted on Apr 19, 2018 at 00:00 AM</p>
 

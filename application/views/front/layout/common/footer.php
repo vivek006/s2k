@@ -17,9 +17,9 @@
       <div class="col l3 s12">
         <h5 class="white-text">Connect</h5>
         <ul>
-          <li><a class="white-text" href="https://facebook.com">Facebbok</a></li>
-          <li><a class="white-text" href="https://linkind.com">Linkind</a></li>
-          <li><a class="white-text" href="https://twitter.com">Twitter</a></li>
+          <li><a class="white-text" target="_blank" href="https://facebook.com">Facebbok</a></li>
+          <li><a class="white-text" target="_blank" href="https://linkind.com">Linkind</a></li>
+          <li><a class="white-text" target="_blank" href="https://twitter.com">Twitter</a></li>
           <!-- <li><a class="white-text" href="#!"></a></li> -->
         </ul>
       </div>

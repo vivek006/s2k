@@ -3,7 +3,15 @@
 
 <head>
    
-<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MCGWW62');</script>
+<!-- End Google Tag Manager -->
+
+<meta name="google-site-verification" content="QFvQy8Ek4FeW8S0LXt4mKLDPWQagzbsKW93TfYCkgfw" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 <title>Industrial Training , Php ,web development, Java ,Python ,Sql,Industrial Training in delhi ,ncr ,gurgaon,noida - S2know</title>
